@@ -20,7 +20,8 @@ export default function Home() {
       </chakra.h1>
 
       <chakra.div pos="absolute" bottom={3} fontSize="sm">
-        Made with &#10084; by zane and zuri oyediji
+        Made with <chakra.span color="#f38596">&#10084;</chakra.span> by zane
+        and zuri oyediji
       </chakra.div>
     </Center>
   );
