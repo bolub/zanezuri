@@ -1,14 +1,16 @@
-import Head from "next/head";
 import { Center, chakra } from "@chakra-ui/react";
+import { useWindowSize } from "../helpers/useWindowSize";
 
 export default function Home() {
+  const size = useWindowSize();
+
   return (
     <Center
       bgImage="url('/cover.jpg')"
       bgPos="center"
       bgSize="cover"
       w="100%"
-      h="100vh"
+      h={size.height}
       p={{ base: 16 }}
       textAlign="center"
       pos="relative"
