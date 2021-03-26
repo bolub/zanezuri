@@ -15,7 +15,7 @@ export default function Home() {
       color="white"
     >
       <chakra.h1 fontSize="2xl">
-        Being <chakra.span fontWeight={900}>Brother & Sister</chakra.span> means
+        Being <chakra.span fontWeight={700}>Brother & Sister</chakra.span> means
         being there for each other
       </chakra.h1>
 

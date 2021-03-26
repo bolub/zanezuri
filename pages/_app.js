@@ -13,9 +13,13 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Zane and Zuri Oyediji</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800;900&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <ChakraProvider theme={customTheme}>
-        <Fonts />
         <Component {...pageProps} />
       </ChakraProvider>
     </>
